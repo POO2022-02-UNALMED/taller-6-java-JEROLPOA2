@@ -21,7 +21,7 @@ public class Pais {
         this.nombre = nombre;
     }
 
-    public Pais paisMasVendedor(){
+    public static Pais paisMasVendedor(){
 
         Pais p = null;
         int b = 0;

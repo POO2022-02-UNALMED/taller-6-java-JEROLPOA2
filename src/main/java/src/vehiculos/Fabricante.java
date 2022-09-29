@@ -30,7 +30,7 @@ public class Fabricante {
         this.pais = pais;
     }
 
-    public Fabricante fabricaMayorVentas(){
+    public static Fabricante fabricaMayorVentas(){
 
         Fabricante f = null;
         int b = 0;

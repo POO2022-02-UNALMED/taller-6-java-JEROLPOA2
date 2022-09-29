@@ -44,5 +44,5 @@ public class TestCantidades {
 		assertTrue(ok, "Hay un problema en el metodo vehiculosPorTipo de la clase Vehiculo");
 		
     }
-	
+
 }

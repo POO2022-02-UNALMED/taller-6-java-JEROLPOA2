@@ -33,10 +33,10 @@ public class Vehiculo {
         return "Automoviles: " + Automovil.getAutomoviles() + "\n" + "Camionetas: " + Camioneta.getCamionetas() + "\n" + "Camiones: " + Camion.getCamiones();
     }
 
-    String getPlaca(){
+    public String getPlaca(){
         return placa;
     }
-    int getPuertas(){
+    public int getPuertas(){
         return puertas;
     }
     public String getNombre(){
@@ -56,6 +56,9 @@ public class Vehiculo {
     }
     public static int getCantidadVehiculos(){
         return cantidadVehiculos;
+    }
+    public int getVelocidadMaxima() {
+        return velocidadMaxima;
     }
 
     public void setPlaca(String placa) {
@@ -81,6 +84,9 @@ public class Vehiculo {
     }
     public static void setCantidadVehiculos(int cantidadVehiculos) {
         Vehiculo.cantidadVehiculos = cantidadVehiculos;
+    }
+    public void setVelocidadMaxima(int velocidadMaxima) {
+        this.velocidadMaxima = velocidadMaxima;
     }
 
 }
